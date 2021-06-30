@@ -45,6 +45,15 @@ h1{
 
 }
 
+.underline{
+  display: block;
+  margin:auto;
+  width: 300px;
+  height: 3px;
+  background: #86C232;
+
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
