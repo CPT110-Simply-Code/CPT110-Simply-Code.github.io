@@ -16,12 +16,31 @@ h1{
 
 h2{
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-size:18px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  color: #6B6E70;
 }
 
 p{
+  font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+p.reference{
+  font-weight:bold;
+  font-size:18px;
+  color:#6B6E70;
+}
+
+a.reference{
+  text-decoration: none;
+  color: #86C232
 }
 
 .main {
@@ -36,6 +55,13 @@ p{
   margin:auto;
   height: 1px;
   background: #61892F;
+}
+
+.underline-ref{
+  display: block;
+  margin:auto;
+  height: 1px;
+  background: #6B6E70;
 }
 
 
