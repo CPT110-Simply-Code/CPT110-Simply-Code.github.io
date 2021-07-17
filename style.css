@@ -26,6 +26,12 @@ h3{
   padding-top: 30px;
   padding-bottom: 0px;
   color: #6B6E70;
+  border-bottom: 1px solid #6B6E70;
+}
+
+#text-list li{
+  font-size:20px;
+  margin-left: 30px;
 }
 
 p{
