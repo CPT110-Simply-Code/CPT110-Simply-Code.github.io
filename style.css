@@ -50,7 +50,7 @@ a.work-link{
 }
 
 .main {
-  width: 1024px;
+  width: 900px;
   text-align: justify;
   padding-top: 20px;
   margin:0 auto;
@@ -103,7 +103,7 @@ li.nav a:hover {
   background-color: #111;
 }
 
-#nav.active {
+#nav a.active {
   background-color: #61892F;
   color: #f1f1f1;
 }
