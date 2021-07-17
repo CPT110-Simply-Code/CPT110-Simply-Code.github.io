@@ -44,6 +44,11 @@ a.reference{
   color: #86C232
 }
 
+a.work-link{
+  text-decoration: none;
+  color: #61892F;
+}
+
 .main {
   width: 1024px;
   text-align: justify;
@@ -66,7 +71,7 @@ a.reference{
 }
 
 
-ul {
+#nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -77,11 +82,11 @@ ul {
   top: 0;
 }
 
-li {
+li.nav {
   float: left;
 }
 
-li a {
+li.nav a{
   display: block;
   color: #6B6E70;
   text-align: center;
@@ -89,11 +94,12 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li.nav a:hover {
   background-color: #111;
 }
 
-.active {
+#nav.active {
   background-color: #61892F;
   color: #f1f1f1;
 }
+
