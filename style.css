@@ -103,3 +103,8 @@ li.nav a:hover {
   color: #f1f1f1;
 }
 
+ol{
+  margin-left: 50px;
+  font-size: 20px;
+}
+
