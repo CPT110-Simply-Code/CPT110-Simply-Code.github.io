@@ -39,6 +39,7 @@ p.reference{
 }
 
 a.reference{
+  font-weight:400;
   text-decoration: none;
   color: #86C232
 }
