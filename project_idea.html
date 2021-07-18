@@ -65,9 +65,195 @@
 <p>The users will choose which category of notifications they wish to receive and the means of delivery of the notifications – whether as an email or a push notification to their mobile devices.</p>
 <p>Users will be the main source of contribution for content for the app. They will add new locations and update each location’s attributes. Adding a gamification or achievements feature will ensure that the users maintain a high level of involvement. The game feature will be focused on users accumulating points to level up and being rewarded with badges and other virtual rewards. Users will accumulate points by performing different tasks in the app. For example, being the first user to visit and add the details of a new park will provide points. This feature also opens the opportunity for later partnerships with local businesses by offering user rewards that can translate to real world benefits for users, as well as providing an unobtrusive method of advertising to support local community businesses.</p>
 <p>After considering the use cases of several target user groups, an extended set of attributes for each location were also identified and are detailed in the following table. These attributes are being used as an initial dataset to provide users the relevant information. Later during the life cycle of the app, these attributes can be developed further into separate features directed towards additional target groups.</p>
-<table>
 
+<br>
+<table id="attributes">
+<tr>
+  <th rowspan="14">General</th>
+  <td rowspan="5">Car Parking</td>
+  <td>Costs</td>
+</tr>
+<tr>
+  <td>Time</td>
+</tr>
+<tr>
+  <td>Vehicle size</td>
+</tr>
+<tr>
+  <td>Carpark size</td>
+</tr>
+<tr>
+  <td>Type of car parking</td>
+</tr>
+<tr>
+  <td rowspan="3">Restroom/Changerooms</td>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td>Showers</td>
+</tr>
+<tr>
+  <td>Changing Cabins</td>
+</tr>
+<tr>
+  <td rowspan="3">Safety</td>
+  <td>Snakes</td>
+</tr>
+<tr>
+  <td>Wild animals</td>
+</tr>
+<tr>
+  <td>Weather shelter</td>
+</tr>
+<tr>
+  <td rowspan="3">Food kiosks/shops</td>
+  <td>Yes/No/ Nearby</td>
+</tr>
+<tr>
+  <td>Type of food available</td>
+</tr>
+<tr>
+  <td>Cost</td>
+</tr>
+<tr>
+  <th rowspan="6">Water recreational activities</th>
+  <td rowspan="2">Boat/Kayak/Jet ski ramp</td>
+  <td>Size</td>
+</tr>
+<tr>
+  <td>Fees</td>
+</tr>
+<tr>
+  <td rowspan="2">Trailer car park</td>
+  <td>Size</td>
+</tr>
+<tr>
+  <td>Cost</td>
+</tr>
+<tr>
+  <td rowspan="2">Fishing</td>
+  <td>Yes/No</td>
+</tr>
+<tr>
+  <td>Fishing spots</td>
+</tr>
+<tr>
+  <th rowspan="13">Families</th>
+  <td rowspan="4">Playgrounds</td>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td>Play equipment</td>
+</tr>
+<tr>
+  <td>Age rating</td>
+</tr>
+<tr>
+  <td>Fenced</td>
+</tr>
+<tr>
+  <td>Parents room</td>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td rowspan="2">Barbecue station</td>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td>No. available</td>
+</tr>
+<tr>
+  <td rowspan="4">Sitting areas</td>
+  <td>Sheltered</td>
+</tr>
+<tr>
+  <td>Number of seats</td>
+</tr>
+<tr>
+  <td>Size</td>
+</tr>
+<tr>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td rowspan="2">Drinking fountains</td>
+  <td>Yes/No</td>
+</tr>
+<tr>
+  <td>Taps</td>
+</tr>
+<tr>
+  <th rowspan="3">People with disabilities</th>
+  <td>Restroom</td>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td rowspan="2">Ease of access</td>
+  <td>Ramps</td>
+</tr>
+<tr>
+  <td>Handrails</td>
+</tr>
+<tr>
+  <th rowspan="3">Dog owners</th>
+  <td>Dog friendly</td>
+  <td>Yes/No</td>
+</tr>
+<tr>
+  <td rowspan="2">Off-leash areas</td>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td>Size</td>
+</tr>
+<tr>
+  <th rowspan="3">Runners</th>
+  <td rowspan="3">Running tracks</td>
+  <td>Length</td>
+</tr>
+<tr>
+  <td>Type of track</td>
+</tr>
+<tr>
+  <td>Difficulty</td>
+</tr>
+<tr>
+  <th rowspan="2">Swimmers</th>
+  <td rowspan="2">Swimming spots</td>
+  <td>Type of swimming area</td>
+</tr>
+<tr>
+  <td>Water condition</td>
+</tr>
+<tr>
+  <th rowspan="2">Hikers</th>
+  <td rowspan="2">Hiking tracks/walking trails</td>
+  <td>Type of track</td>
+</tr>
+<tr>
+  <td>Difficulty</td>
+</tr>
+<tr>
+  <th rowspan="5">General fitness</th>
+  <td rowspan="2">Outdoor exercise stations</td>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td>Equipment list</td>
+</tr>
+<tr>
+  <td rowspan="3">Sport fields</td>
+  <td>Type of field/pitch/court</td>
+</tr>
+<tr>
+  <td>Condition</td>
+</tr>
+<tr>
+  <td>Availability</td>
+</tr>
 </table>
+
+<br>
 <h2>Tools and Technology</h2>
 <p>The first tool used to define the UI (User Interface) and UX (User experience) will be Figma, a professional web-based prototyping tool that also allows team collaboration on projects. Figma will be used to create wireframes to provide an idea of what will appear in front of the users. It will also facilitate listing the different pages available on the app based on our features and map out the main buttons. Figma will then be used to refine the interface design and experience further to maximise appeal and usability. The app's front-end will then be coded using the core web languages HTML, CSS, and JavaScript. In addition, the JS framework AngularJS may be required to provide more flexibility with the dynamic views the app will provide.</p>
 <p>A database will also be designed based on the attributes developed, user-profiles and the other required information presented in the UI. The database will be created in MongoDB, a non-relational document database. This type of database will allow flexibility to develop additional features of the app and help deploy the app via a cloud server. The graphical user interface MongoDB Compass may be a valuable tool to ease the creation of the database and its collections.</p>

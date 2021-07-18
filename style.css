@@ -97,6 +97,7 @@ a.work-link{
 
 ul.nav {
   list-style-type: none;
+  margin: 0px;
 }
 
 li.nav {
@@ -139,4 +140,21 @@ ol{
 ul{
   margin-left: 50px;
   font-size: 20px; 
+}
+
+#attributes{
+  width: 100%;
+  font-size: 20px;
+  text-align:center;
+  border-collapse: collapse;
+}
+
+#attributes table, th, td{
+  border: 1px solid #6B6E70;
+  border-collapse: collapse;
+}
+
+#attributes th, td{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
