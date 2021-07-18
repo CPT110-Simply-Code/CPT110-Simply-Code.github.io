@@ -135,3 +135,8 @@ ol{
   border: 1px #6B6E70;
   padding: 8px;
 }
+
+ul{
+  margin-left: 50px;
+  font-size: 20px; 
+}

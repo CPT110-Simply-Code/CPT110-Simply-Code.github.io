@@ -33,8 +33,67 @@
 </div>
 
 <div class="main">
+<h2>Premise and Motivation</h2>
+<p>The project is a software product in the form of a web app which will enable people to discover the location and features of local parks and recreational areas. Consideration has been given to both the common and related purpose of the app and the targeted user market. Therefore, the idea has been expanded from its original core functionality, which began as a simple idea for the community to populate the app's database with ratings and amenities for parks. The app's reach is now extended to various groups of the local community, including families with kids, runners, walkers, dog-owners, people with disabilities and people just looking to be outdoors. This app is intended to be a user's first port of call whenever they need to find relevant information about the parks in the local area or a new area they are visiting. Furthermore, the aim is to encourage the users to update the content with reviews and messages once they have visited the parks. To achieve this, users will be motivated to explore local places using a gamification element and offering virtual rewards upon completing specific tasks or visiting specific locations.</p>
+<p>When reflecting on the app's purpose, the team considered whether an existing platform such as Google's "Local guides" feature already fulfils the user's requirements and whether the app would be more beneficial to the users than the world's most used search engine (GlobalStats 2021)? The outcome is that the existing platform was not purpose-built to search and display the target users' relevant information. It can quickly bring up a list of the nearest parks, but the details relating to the park do not cover specific resources that the user is likely to be looking for. The proposed initial feature set provides a consistent level of information across all parks reviewed to make it easier to search for the sections related to the users' activities or needs. For example, it should be effortless when a young family wants to find a park nearby to identify that it has adequate play equipment for their kids while also offering a working barbecue station and adequate car parking.</p>
+<br>
+<h2>Feature Description</h2>
+<p>The app will be implemented initially with a web-based graphical user interface (GUI) and a database back end containing all the location information. In addition, the app's interface will allow the users to interact with the information via each of the features of the app.</p>
+<p>The app's primary features were identified by analysing the set of features each target group will use and finding the common ones that will contribute to the core functionality of the app. The five most prominent features nominated for early release iterations are:</p>
+<ul>
+  <li>Searching for park locations</li>
+  <li>Directions</li>
+  <li>Profiles</li>
+  <li>Notifications</li>
+  <li>Gamification</li>
+</ul>
+<p>The search function is the first part of the app most new users will be utilising. This feature will allow the users to search then sort or filter the results according to their needs. The multiple attributes of each location, such as the availability of specific amenities will be available as filter criteria to refine the search result. The feature will allow users to filter for multiple criteria to narrow down the results to the location that meets all their requirements while also displaying the distance between the user and their desired destination. For example, an avid kayaker can locate the parks with a boat/kayak ramp, which also has secure and free parking so that they can leave their vehicle while performing their activities.</p>
+<p>After finding a location that meets their requirements, the users will access the directions feature to guide them there. The feature will provide them with guided directions to the location via their preferred method of travel with a real-time estimate of their travel times.</p>
+<p>The app will also provide the users with the option to create a profile, which will allow the users access additional features that will convenient and relevant information:</p>
+<ul>
+  <li>Creating lists of favourite locations</li>
+  <li>Subscribing to and creating location notifications</li>
+  <li>Accessing the achievements section of the app</li>
+</ul>
+<p>After users have created a profile, they will have the option to use the notifications feature of the app. These notifications will be communications from the app related to the location they have subscribed to, including:</p>
+<ul>
+  <li>Location updates – when attributes of a location are changed</li>
+  <li>Maintenance notices – upcoming partial or complete location closure for works</li>
+  <li>Extreme weather notices – location is situated in an area where a severe weather alert has been issued</li>
+  <li>Lost pet and other personal notices – created by the users, and moderated by users with enough achievement points to participate in moderation efforts</li>
+</ul>
+<p>The users will choose which category of notifications they wish to receive and the means of delivery of the notifications – whether as an email or a push notification to their mobile devices.</p>
+<p>Users will be the main source of contribution for content for the app. They will add new locations and update each location’s attributes. Adding a gamification or achievements feature will ensure that the users maintain a high level of involvement. The game feature will be focused on users accumulating points to level up and being rewarded with badges and other virtual rewards. Users will accumulate points by performing different tasks in the app. For example, being the first user to visit and add the details of a new park will provide points. This feature also opens the opportunity for later partnerships with local businesses by offering user rewards that can translate to real world benefits for users, as well as providing an unobtrusive method of advertising to support local community businesses.</p>
+<p>After considering the use cases of several target user groups, an extended set of attributes for each location were also identified and are detailed in the following table. These attributes are being used as an initial dataset to provide users the relevant information. Later during the life cycle of the app, these attributes can be developed further into separate features directed towards additional target groups.</p>
+<table>
 
-
+</table>
+<h2>Tools and Technology</h2>
+<p>The first tool used to define the UI (User Interface) and UX (User experience) will be Figma, a professional web-based prototyping tool that also allows team collaboration on projects. Figma will be used to create wireframes to provide an idea of what will appear in front of the users. It will also facilitate listing the different pages available on the app based on our features and map out the main buttons. Figma will then be used to refine the interface design and experience further to maximise appeal and usability. The app's front-end will then be coded using the core web languages HTML, CSS, and JavaScript. In addition, the JS framework AngularJS may be required to provide more flexibility with the dynamic views the app will provide.</p>
+<p>A database will also be designed based on the attributes developed, user-profiles and the other required information presented in the UI. The database will be created in MongoDB, a non-relational document database. This type of database will allow flexibility to develop additional features of the app and help deploy the app via a cloud server. The graphical user interface MongoDB Compass may be a valuable tool to ease the creation of the database and its collections.</p>
+<p>The back end of the program will need to be written in a language that offers a convenient way of coding the intended feature set and develop the architecture required for the app to function efficiently. The back end will also need to be configured with the various layers and APIs (Application Programming Interfaces) that will need to be implemented.</p>
+<p>Hosting the app will ideally be through a cloud service. A suitable option will need to be identified based on the app's requirements in comparison with the cost of the services available. Having a cloud-based server will help with scalability without the accompanying cost of the additional technical infrastructure.</p>
+<p>GitHub will be used as an online code repository to facilitate the collaboration on the code to be written. It will ease tracking the general progress on the different components of the app but also help with version control during development. Furthermore, as GitHub offers plugins for several code editors, each team member can use their preferred code editors.</p>
+<h2>Skills</h2>
+<p>The main technical skillset required for developing the app will be:</p>
+<ul>
+  <li>UI/UX design</li>
+  <li>Front-end development</li>
+  <li>Database design</li>
+  <li>Back-end development</li>
+  <li>Familiarity with servers (cloud-based or local)</li>
+</ul>
+<p>While this is a significant skillset, dividing the app into components based on features will ensure that tasks can be more easily allocated to all team members. This allocation may be based on prior experience and personal interests in various technologies, and the division of labor will ensure that the team can progress through each set milestone. In addition, project management skills will be valuable for staying on track during the tight timeframe available for the app’s development.</p>
+<p>There is no requirement for special hardware at this stage of the project as most computers with access to the internet will meet the minimum requirements for running desktop tools such as a code editor and a browser for any web-based tools. Furthermore, using a cloud-based server will also remove the need for related hardware to be sourced and maintained.</p>
+<h2>Project outcome</h2>
+<p>Considering the features that will be implemented as a starting point, the outcome of this project will be an app that is purpose-built to solve a lot of the questions people in the local community may have around their parks. The app will provide them with relevant information conveniently and motivate them to contribute information to benefit other users. It will also be a helpful cooperation tool in distressing situations like a lost pet. The intended impact is for a more involved local community and spending an extended amount of time in the great outdoors. This increase could also result in a healthier community with reduced stress and mental fatigue, an improved mood and self-esteem as discussed by Gladwell et al. (2013)</p>
+<br>
+<h3>References</h3>
+<p class="reference">Gladwell, V. F., Brown, D. K., Wood, C., Sandercock, G. R., & Barton, J. L. 2013 <i>The great outdoors: how a green exercise environment can benefit all,</i> Extreme physiology & medicine, 2(1), 3., viewed 16 July 2021,
+  <a class="reference" href="https://doi.org/10.1186/2046-7648-2-3">https://doi.org/10.1186/2046-7648-2-3</a></p>
+<p class="reference">GlobalStats 2021, <i>Search Engine Market Share Worldwide,</i> StatCounter,viewed 10 July 2021,
+  <a class="reference" href="https://gs.statcounter.com/search-engine-market-share">https://gs.statcounter.com/search-engine-market-share</a></p>
+<p></p>
 
 
 </div>
