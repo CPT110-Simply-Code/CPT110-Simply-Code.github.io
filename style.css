@@ -11,7 +11,7 @@ body {
 
 h1{
   text-align: center;
-  padding: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
 }
 
 h2{
@@ -20,7 +20,6 @@ h2{
   border-bottom: 1px solid #61892F;
 }
  
-
 h3{
   font-size:18px;
   padding-top: 30px;
@@ -29,6 +28,12 @@ h3{
   border-bottom: 1px solid #6B6E70;
 }
 
+h4{
+  font-size:24px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid #61892F;
+}
 #text-list li{
   font-size:20px;
   margin-left: 30px;
