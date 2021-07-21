@@ -19,12 +19,20 @@ h1{
   padding: 10px 10px 10px 10px;
 }
 
-h1.index{
+a.index{
+  text-decoration: none;
   position:absolute;
   top:30%;
   width:100%;
   text-align:center;
   font-size:100px;
+  font-weight:900;
+  transition: 0.3s;
+  color:#f1f1f1;
+}
+
+.index:hover {
+  color: #61892F;
 }
 
 h2{
@@ -128,10 +136,12 @@ li.nav a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 li.nav a:hover {
   background-color: #111;
+  transition: 0.3s;
 }
 
 #nav a.active {
