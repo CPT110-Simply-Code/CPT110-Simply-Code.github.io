@@ -371,9 +371,190 @@
   <label for="collapsible-cybersecurity" class="lbl-toggle-cybersecurity" ><h2 class="wrap-collapsible-cybersecurity">Cybersecurity</h2></label>
   <div class="collapsible-content-cybersecurity">
     <div class="content-inner-cybersecurity">
-  <p>Paragraph</p>
+  <p>Cybersecurity "is the collection of tools, policies, security concepts, security safeguards, guidelines, risk
+    management approaches, actions, training, best practiced assurance, and technologies that can be used
+    to protect the cyber environment, organisations, and assets." (Schatz, Bashroush & Wall, p.66). People
+    create, use, control, and covet data in an increasingly data-focused digital world, and they use physical
+    and social means to access and safeguard their data. The physical means include a variety of technologies
+    such as public key and end-to-end encryption, anti-malware software, firewalls, monitors, analysers, and
+    authentication systems that all contribute to the digital landscape's security. The social component to
+    cybersecurity is that it is people who use and maintain the technology that creates and protects
+    information, and it is due to the fallible nature of people that others are able to exploit human weakness
+    to gain unauthorised access to information thought to be safe. With both technical and social elements
+    involved, cybersecurity is perhaps one of the more challenging areas of Information Technology to
+    understand, and while the list of cybersecurity technologies may seem quite small compared to some of
+    the other IT fields, they are perhaps some of the more technically complex technologies as well.</p>
+  <p>In most computer networks, a firewall guards against unauthorised access and is designed to act as a
+    barrier between the trusted inner, and untrusted outer networks (Cisco n.d.). Firewalls can be
+    implemented as combination of hardware and software technologies which apply a set of security rules
+    to control the flow of information entering or leaving the host network. Traditional “stateful” firewalls
+    work effectively as directional filters, identifying data packets by protocol, port, and request state, then
+    deciding whether the packets can be safely routed to their intended destinations or denied access (Cicso
+    n.d.). A firewall needs to allow Internet Protocol (IP) ports to be opened to allow networks to
+    communicate, however this creates a point of vulnerability, where returning packets might be intercepted
+    and altered, or where a bad actor within the trusted network may be either receiving harmful data or
+    transmitting sensitive data, which a traditional firewall generally cannot be configured to prevent.</p>
+  <p>A more modern approach to the firewall blends traditional packet filtering, anti-malware software, and
+    other strategies to create what is known as the Unified Threat Management (UTM) firewall. These are
+    multiple technology appliances that can assess several security problems by scanning the network packets
+    to assess their ‘signatures’ and compare them against potential known threats (Kapersky n.d.). Next
+    Generation Firewalls (NGFW) build on the premise of the UTM by adding technologies such as Deep Packet
+    Inspection to deeply scan the content of each packet, Application Control to identify and potentially block
+    the applications that the packets come from, and Intrusion Prevention Systems which can proactively
+    identify and guard against cyberattacks (Cloudflare 2021). The other major difference which sets the
+    NGFW apart from previous firewall technologies, is its potential to also be deployed in the cloud as well
+    as within a traditional trusted network. However, Gartner (n.d.) also suggests the potential of applying
+    intelligence from outside the firewall, which is perhaps an allusion that machine learning and artificial
+    intelligence may also have roles to play in the future of firewall technology.</p>
+  <p>The team at Kapersky (n.d.) highlights that with a firewall you have a single point of failure, which also
+    implies a single point of vulnerability, and perhaps multiple devices or technologies may be required to
+    make networks safer. However, since firewalls are considered a part of a traditional perimeter network
+    defence model, some technical experts would argue that the ideology of a trusted network is obsolete,
+    and perhaps thinking should shift towards a zero-trust model where all data is controlled based on
+    authentication and privileged access (Weinert et. al. 2019). This is considered particularly appropriate in 
+    a more online-oriented world, where more businesses and even individuals are making regular use of the
+    ‘as-a-service’ model, and traditional trusted network infrastructures are being replaced by third party
+    provided services instead. Thus, other cybersecurity technologies may perhaps complement and the
+    functionality of the current state of the art in perimeter defence technologies to present a broader, ‘whole
+    network’ defence paradigm.
+    </p>
+  <p>User authentication is an element of cybersecurity that can be considered the digital equivalent of a
+    physical lock and key. It is an essential tool required to secure files and devices and works much closer to
+    the data than firewalls do. Maayan (n.d.) identifies several methods of authentication:
+    </p>
+    <ul>
+      <li>Passwords are the use of a string of letters, numbers, or special characters together to form a
+        code to grant access to a user’s login.</li>
+      <li>Certificates authentication as Olenski (2019) describes is the use of a Digital Certificate to identify
+        a user, machine, or device before granting access to a network or application.</li>
+      <li>Biometrics authentication is the use of an individual's measurable biological characteristics for
+        unique identification, such as the use of facial features, fingerprints, voice and or eye scanning. </li>
+      <li>Token authentication allows the user to enter their credentials once and receive an encrypted
+        string of random characters that can be stored either on a USB device or an access card. Once this
+        has been completed, the user will no longer be required to enter login credentials to gain access
+        since the token serves this purpose.
+        </li>
+      <li>Multi-factor Authentication is simply the use of two or more forms of authentication at the same
+        time.</li>
+    </ul>
+  <p>Multi-factor authentication is slowly becoming a standardised model when securing information due to
+    the added layers of security. With the proper use of authentication users and businesses can protect their
+    sensitive data from unauthorised access and prevent that data being used for unauthorised purposes.</p>
+  <p>Encryption is the algorithmic obfuscation of information, the key technology that secures the world’s
+    devices and data. In a world where information is sent across vast distances over both public and private
+    networks, people are concerned for the confidentiality of trade secrets as well as their personal
+    information. The first known evidence of cryptography, and perhaps the inspiration for encryption, comes
+    from around 4000 years ago in Egyptian hieroglyphics (Sidhpurwala 2013). Some 2000 years later, Julias
+    Caesar was using a form of cryptography when sending private messages (Sidhpurwala 2013). More
+    recently, during World War II, the modern push for encryption technology began with the German Enigma
+    Code and the Turing Machine developed to thwart it (Encyclopædia Britannica 2021).</p>
+  <p>Nowadays, encryption standards such as the Advanced Encryption Standard (AES) are used across the
+    world to secure both mundane and sensitive information, with cybercriminals continually seeking to
+    circumvent these modern encryption methods (ATP Electronics 2020). On a basic level encryption works
+    by passing a secret key (E.g.: a strong password) and data through an encryption algorithm, producing an
+    encrypted file (ATP Electronics 2020). This encrypted file can then only be accessed by someone who has
+    both the encrypted file and the secret key, providing a means to protect data and restrict access to trusted
+    people (ATP Electronics 2020). Encryption makes cybersecurity possible, making it a key element of the
+    modern internet technology.</p>
+  <p>Malware is a technology which many users are not sufficiently educated about. Regan & Belcic (2021) list
+    several types of malware, such as “viruses, Trojans, spyware, keyloggers, worms, ransomware, adware, 
+    scareware, rootkits, cryptominers, and logic bombs”. These technologies are often considered malicious
+    and are designed to work around cyber defenses, gaining access to an individual's or corporation’s
+    computers when a user is not sufficiently cautious. Malware is – by design – difficult for the average user
+    to detect, requiring software developed to continuously monitor and protect devices from being
+    compromised.</p>
+  <p>Viruses infect files, corrupting them before spreading to other files and causing computers to become
+    unusable. Trojans are disguised malicious programs which install further software designed to release
+    other malware, encrypt data, and bypass security. Spyware is software that monitors everything from
+    user input to data content and network traffic. These are the anti-cybersecurity technologies which all
+    technology users should be aware of, and the tools which thieves, terrorists, spies, and saboteurs employ
+    within the digital world. Malware is also pervasive, with just one antivirus company claiming to detect
+    over 20 million threats each day (Malwarebytes 2021). While it is not feasible to prevent all malware
+    variants, user vigilance, training, and improving detection methods can noticeably reduce the likelihood
+    of malware spreading to cause major disruptions.</p>
+  <p>The need for cybersecurity has had a profound effect on the way that society manage both data and
+    computer networks. With the creation of the Internet and the modern reliance on the Cloud, a subindustry has spawned within IT employing thousands of individuals worldwide as cybersecurity experts
+    who wage a silent and bloodless war against criminals and untrusted foreign interests alike. Now that
+    businesses such as CapitalOne are moving their infrastructure entirely into the Cloud (AWS 2020),
+    businesses find that is imperative that their data and systems are secure and protected from access by
+    unauthorised third parties. It is now commonplace for website and email communications to be
+    encrypted, and for users to enter passwords multiple times every day. Phones and other devices are
+    secured with a password or passcode, and it seems that the world must constantly remain vigilant or risk
+    data loss, and perhaps even worse to risk data exposure.</p>
+  <p>While the technologies of the cybersecurity expert might be designed to prevent or identify attacks, the
+    technologies and techniques of the cybercriminal are equally sophisticated and designed to circumvent
+    the protections in place. The weakest point in the world's digital armour, however, is the users
+    themselves, even while systems and infrastructure become more secure. Social engineering is an attack
+    vector that is something beyond the ability of technology to control, since human psychology is exploited
+    to take advantage of a target’s willingness to trust (Abroshan 2021) and can lead to disastrous
+    consequences. Scammers may defraud the elderly of their retirement funds, companies may be forced to
+    pay ransoms to access their data, and in a worst-case scenario, governments and militaries might be
+    compromised. All these situations can have an impact on economies as governments and businesses
+    divert resources to combat the assaults against the security of the world’s collective data.</p>
+  <p>The ideal cybersecurity model would be one where individuals remain blissfully unaware that they are
+    being constantly protected from cybercrime. Perhaps in the future advanced authentication would allow
+    a user to sit and work without being concerning about security. With biometrics, authentication tokens,
+    and AI, this may no longer be the far-fetched ideal it might once have been. Without that ideal however,
+    users need to remember passwords, carry devices that provide a second factor of authentication, and
+    must remain constantly vigilant regarding their data security. Failures in the efficacy of cybersecurity can
+    also have undesirable consequences against the individual. A ransomware attack that leaves a company
+    unable to trade could cost employees their jobs, yet the effects can also be much further reaching. The 
+    Toll ransomware attacks during February and May 2020 affected the company’s logistics worldwide, and
+    at the height of the COVID lockdowns left millions of individuals unable to track parcels or receive timely
+    deliveries of essential supplies (O’Donnell 2020). Another concerning impact of cybersecurity is that even
+    though encryption allows individuals send information securely, newer cybersecurity devices that perform
+    Deep Packet Inspection (Okta 2021) can perhaps compromise users’ privacy. Without the protection of
+    cybersecurity however, individuals would have no privacy at all in a digital world and would be at even
+    greater risk of being exploited by cybercriminals.</p>
+  <p>Cybersecurity is an expansive field which seems on the surface to be focused on technology, yet it is
+    inherently about both the protection and exploitation of people and data. It is a something that goes
+    largely unnoticed by the public until authentication is required or a security incident occurs and is a cause
+    for constant vigilance and concern by governments and businesses alike. As the world becomes
+    increasingly dependent on technology the importance of cybersecurity cannot be underestimated, and as
+    security circumvention technologies and processes become more subtle and complex, the world needs
+    equally complex methods and technologies to keep people's data and privacy safe. However,
+    cybersecurity cannot be effective unless the people who rely on it remember to actively participate in it.
+    </p>
+
   <h3>References</h3>
- <p></p>
+  <p class="reference">Abroshan, H, Devos, J, Poels, G & Laermans, E 2021, <i>‘Phishing Happens Beyond Technology: The Effects
+    of Human Behaviors and Demographics on Each Step of a Phishing Process’,</i>  IEEE Access, vol. 9, pp.44928-44949, viewed 19 July 2021,
+    <a class="reference" href="https://ieeexplore.ieee.org/document/9380285">https://ieeexplore.ieee.org/document/9380285</a></p>
+  <p class="reference">ATP Electronics 2019, <i>Secure your data with AES-256 encryption, </i> viewed 21 July 2021,
+    <a class="reference" href="https://www.atpinc.com/blog/what-is-aes-256-encryption">https://www.atpinc.com/blog/what-is-aes-256-encryption</a></p>
+  <p class="reference">AWS 2020, <i>‘Capital One Completes Migration from Data Centers to AWS, Becomes First US Bank to
+    Announce Going All In on the Cloud’,</i> Amazon Web Services, viewed 13 July 2021, 
+    <a class="reference" href="https://aws.amazon.com/solutions/case-studies/capital-one-all-in-on-aws/">https://aws.amazon.com/solutions/case-studies/capital-one-all-in-on-aws/</a></p>
+  <p class="reference">CISCO, <i>What is a firewall,</i> CISCO, viewed 5 July 2021, 
+    <a class="reference" href="https://www.cisco.com/c/en_au/products/security/firewalls/what-is-a-firewall.html">https://www.cisco.com/c/en_au/products/security/firewalls/what-is-a-firewall.html</a></p>
+  <p class="reference">Cloudflare 2021, <i>What is a next generation firewall,</i> Cloudflare, viewed 18 July 2021, 
+    <a class="reference" href="https://www.cloudflare.com/en-au/learning/cloud/what-is-a-next-generation-firewall/">https://www.cloudflare.com/en-au/learning/cloud/what-is-a-next-generation-firewall/</a></p>
+  <p class="reference">Encyclopædia Britannica 2021,<i>Enigma: German code device, </i>viewed 21 July 2021, 
+    <a class="reference" href="https://www.britannica.com/topic/Enigma-German-code-device">https://www.britannica.com/topic/Enigma-German-code-device</a></p>
+  <p class="reference">Gartner n.d., <i>Next-generation Firewalls (NGFWs), </i> Gartner Information Technology Glossary, viewed 18
+    July 2021, 
+    <a class="reference" href="https://www.gartner.com/en/information-technology/glossary/next-generation-firewallsngfws">https://www.gartner.com/en/information-technology/glossary/next-generation-firewallsngfws</a></p>
+  <p class="reference">Kaspersky n.d., <i>What is Unified Threat Management (UTM), </i> Kaspersky, viewed 18 July 2021, 
+    <a class="reference" href="https://www.kaspersky.com.au/resource-center/definitions/utm">https://www.kaspersky.com.au/resource-center/definitions/utm</a></p>
+  <p class="reference">Weinert, A, Mayfield, P, Costica, O'Donovan, S, Gulati, G, Radhakrishnan, D, Tor, Y & Esibov, A 2019, <i>Traditional perimeter-based network defense is obsolete – transform to a Zero Trust model, </i>  Microsoft, blog post, 23 October, viewed 18 July 2021, 
+    <a class="reference" href="https://www.microsoft.com/security/blog/2019/10/23/perimeter-based-network-defense-transformzero-trust-model/">hhttps://www.microsoft.com/security/blog/2019/10/23/perimeter-based-network-defense-transformzero-trust-model/</a></p>
+  <p class="reference">Maayan, G.D. n.d., <i>Authentication Methods that can Prevent the Next Breach, </i> viewed 20 July 2021,
+    <a class="reference" href="https://www.idrnd.ai/5-authentication-methods-that-can-prevent-the-next-breach/">https://www.idrnd.ai/5-authentication-methods-that-can-prevent-the-next-breach/</a></p>
+  <p class="reference">Malwarebytes 2021, <i>Cyber Protection for Everyone, </i> viewed 21 July 2021, 
+    <a class="reference" href="https://www.malwarebytes.com/">https://www.malwarebytes.com/</a></p>
+  <p class="reference">O’Donnell, L 2020, <i>‘Ransomware Attack Takes Down Toll Group Systems, Again’, </i> Threat Post, viewed 20 July 2021,
+    <a class="reference" href="https://threatpost.com/ransomware-attack-toll-group-systems-again/155505/">https://threatpost.com/ransomware-attack-toll-group-systems-again/155505/</a></p>
+  <p class="reference">Okta 2021, <i>‘What Is Deep Packet Inspection (DPI)? Definition & Usage’, </i> Okta, viewed 20 July 2021,
+    <a class="reference" href="https://www.okta.com/identity-101/deep-packet-inspection/">https://www.okta.com/identity-101/deep-packet-inspection/</a></p>
+  <p class="reference">Olenski, Julie 2016 <i>What is Certificate-Based Authentication and Why Should I Use It?, </i> viewed 21 July 2021,
+    <a class="reference" href="globalsign.com/en/blog/what-is-certificate-based-authentication">globalsign.com/en/blog/what-is-certificate-based-authentication</a></p>
+  <p class="reference">Regan, J & Belcic, I 2021, <i>What Is Malware? The Ultimate Guide to Malware, </i>AVG, London, England, viewed 21 July 2021
+    <a class="reference" href="https://www.avg.com/en/signal/what-is-malware">https://www.avg.com/en/signal/what-is-malware</a></p>
+  <p class="reference">Sidhpurwala, H 2013, <i>A Brief History of Cryptography, </i>Red Hat, Raleigh, NC, viewed 21 July 2021, 
+    <a class="reference" href="https://access.redhat.com/blogs/766093/posts/1976023">https://access.redhat.com/blogs/766093/posts/1976023</a></p>
+                                                                                                                                                                                                                                                                       
+
+
  </div>
 </div>
 </div>

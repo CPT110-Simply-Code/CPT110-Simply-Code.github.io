@@ -79,7 +79,7 @@ p{
   padding-bottom: 20px;
 }
 
-p.reference{
+p.reference {
   font-weight:bold;
   font-size:18px;
   color:#6B6E70;
@@ -87,6 +87,17 @@ p.reference{
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+figcaption { 
+  font-weight:normal;
+  font-style:italic;
+  font-size:18px;
+  color:#6B6E70;
+  text-align:left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 
 a.reference{
   font-weight:400;
@@ -398,4 +409,14 @@ input[type='checkbox'] {
   transform: rotate(90deg) translateX(-3px);
 }
 
+.column-images {
+  float: left;
+  width: 50%;
 
+}
+
+.row-images::after {
+  content: "";
+  clear: both;
+  display: table;
+}
