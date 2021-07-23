@@ -152,9 +152,10 @@ ul.nav {
   margin: 0px;
 }
 
-li.nav {
+li.nav,li.nav-index {
   float: left;
 }
+
 
 li.nav a{
   display: block;
@@ -165,7 +166,21 @@ li.nav a{
   
 }
 
+li.nav-index a{
+  display: block;
+  color: #61892F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   
+}
+
 li.nav a:hover {
+  background-color: #111;
+  transition: 0.3s;
+}
+
+li.nav-index a:hover {
   background-color: #111;
   transition: 0.3s;
 }
